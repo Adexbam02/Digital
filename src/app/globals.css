@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@layer utilities {
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexCol{
+    @apply flex flex-col items-center justify-center
+  }
+
+  .custom-gradient {
+    background: linear-gradient(229deg, rgba(158, 255, 0, 0.20) -68.25%, rgba(158, 255, 0, 0.00) 32.16%), 
+                linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0.00) 100%);
+  }
+  
+}
