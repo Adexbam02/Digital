@@ -11,7 +11,7 @@ const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className=" border-solid border-x-[0px] border-t-[0px] border-grayTwo border-[2px]">
+    <nav className="bg-[#1A1A1A] top- fixed w-full  border-solid border-x-[0px] border-t-[0px] border-grayTwo border-[2px]">
       <div className=" w-full  pt-[40px] pb-[20px] px-[16px] flex items-center justify-between ">
         <Link href={"/"}>
           <Image src="/Logo.svg" alt="logo" width={100} height={100} />

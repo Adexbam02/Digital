@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="border-solid border-x-[0px] border-t-[0px] border-grayTwo border-[1px] flex  w-full px-[16px] h-[90vh] bg-[url(/data-montain.svg)] bg-bottom  bg-enter bg-no-repeat bg-[length:100%]">
-      <div className="h-[80%] flex items-center flex-col gap-[1.5rem] justify-center text-white text-center">
+    <header className="border-solid border-x-[0px] border-t-[0px] border-grayTwo border-[1px] flex  w-full px-[16px] h-[100vh] bg-[url(/data-montain.svg)] bg-bottom  bg-enter bg-no-repeat bg-[length:100%]">
+      <div className="h-[90%] mt-[3rem]  flex items-center flex-col gap-[1.5rem] justify-center text-white text-center">
         <h1 className="text-5xl font-bold ">
           A Digital Product Studio that will Work
         </h1>
