@@ -3,8 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import menu from "../../public/menu.svg";
-// import close from "../../public/close.svg";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +24,9 @@ const NavBar = () => {
             width={20}
             height={20}
             alt=""
-            className="cursor-pointer"
+            className={`cursor-pointer transition-all duration-300 ease-in-out ${
+              isMenuOpen ? "transform rotate-180" : ""
+            } overflow-hidden`}
           />
         </div>
       </div>
