@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundSize: {
+        '50%': '50%',
+        '75%': '75%',
+      },
       colors: {
         background: "#1A1A1A",
         foreground: "var(--foreground)",
