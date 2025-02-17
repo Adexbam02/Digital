@@ -6,6 +6,7 @@ import energyBox from "../../../public/services/energyBox.svg";
 import medal from "../../../public/whyChoose/medal.svg";
 import comm from "../../../public/whyChoose/comm.svg";
 import safeguard from "../../../public/whyChoose/safeguard.svg";
+import crown from "../../../public/whyChoose/crown.svg";
 export const design = [
   {
     id: 1,
@@ -51,6 +52,13 @@ export const whyChoose = [
     title: "Results-Driven Solutions",
     icon: safeguard,
     text: "Our primary focus is on delivering results. We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, and provide a competitive advantage.",
+    // direct: "/",
+  },
+  {
+    id: 4,
+    title: "Collaborative Partnership",
+    icon: crown,
+    text: "We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.",
     // direct: "/",
   },
 ];
