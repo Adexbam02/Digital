@@ -2,6 +2,7 @@ import NavBar from "@/components/NavBar"
 import Header from "@/components/Header"
 import Companies from "@/components/Companies"
 import Services from "@/components/Services"
+import WhyChoose from "@/components/WhyChoose"
 
 const Page = () => {
   return (
@@ -10,6 +11,7 @@ const Page = () => {
       <Header />
       <Companies />
       <Services />
+      <WhyChoose/>
     </>
   )
 }
