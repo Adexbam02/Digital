@@ -1,6 +1,5 @@
-// import Link from "next/link";
 import Image from "next/image";
-import { whyChoose } from "./UI/data";
+import { testionials } from "./UI/data";
 
 const Testimonials = () => {
   return (
@@ -16,37 +15,35 @@ const Testimonials = () => {
       </div>
 
       <div className="btm w-full border-solid border-grayTwo border-[1px] text-center flexCol  flexCol gap-[0rem]">
-        {whyChoose.map(({ id, title, icon, text }) => (
+        {testionials.map(({ id, title, profile, text, name, post }) => (
           <div
             key={id}
             className="text-left py-[50px] px-[16px] flex flex-col items-start gap-4 w-full border-solid border-[1px] border-grayTwo"
           >
             <p className="text-greenFour text-[20px]">
-              SquareUp has been Instrumental in Transforming our Online
-              Presence.{" "}
+              {title}
             </p>
 
             <p>
-              Their team&apos;s expertise in web development and design resulted in a
-              visually stunning and user-friendly e-commerce platform. Our
-              online sales have skyrocketed, and we couldn&apos;t be happier.
+              {text}
             </p>
 
-            <div className="w-full p-[14px] bg-grayTwo rounded-[6px] border-solid border-[1px] border-green flex items-start flex-col gap-4">
-              <div className="flex items-center justify-normal">
-                <span className="custom-gradient flexCenter rounded-[6px] border-none border-solid border-[#2E2E2E] p-[16px]">
-                  <Image src="{icon}" width={25} height={25} alt="" />
+            <div className="w-full p-[14px] bg-grayTwo rounded-[6px] border-solid border-[1px] border-green/20 flex items-start flex-col gap-4">
+              <div className="flex items-center justify-normal gap-4">
+                <span className="custom-gradient flexCenter rounded-[6px]  border-[#2E2E2E] ">
+                  <Image
+                    src={profile}
+                    width={50}
+                    height={50}
+                    alt="Profile Picture"
+                  />
                 </span>
-                <h3 className="ml-4 text-[30px] font-bold">{title}</h3>
+                <div className="bg-red-00  flex flex-col items-start justify-end">
+                  <h3 className=" text-[20px] font-bold">{name}</h3>
+                  <p className="">{post}</p>
+                </div>
               </div>
             </div>
-
-            {/* <Link
-              href={direct}
-              className="bg-grayTwo w-full rounded-[6px] p-[15px]"
-            >
-              Learn More
-            </Link> */}
           </div>
         ))}
       </div>
