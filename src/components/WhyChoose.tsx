@@ -20,7 +20,7 @@ const WhyChoose = () => {
           >
             <div className="flex items-start flex-col gap-4">
               <div className="flex items-center justify-normal">
-                <span className="custom-gradient flexCenter rounded-[6px] border-none border-solid border-[#2E2E2E] p-[16px]">
+                <span className="custom-gradient flexCenter rounded-[6px]  border-[#2E2E2E] p-[16px]">
                   <Image src={icon} width={25} height={25} alt="" />
                 </span>
                 <h3 className="ml-4 text-[30px] font-bold">{title}</h3>

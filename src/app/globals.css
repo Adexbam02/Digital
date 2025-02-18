@@ -48,4 +48,8 @@ body {
   .collapsibleOpen {
     max-height: 500px; /* Adjust this value based on your content */
   }
+
+  .borderB{
+    @apply border-solid border-b-[1px] border-grayTwo
+  }
 }

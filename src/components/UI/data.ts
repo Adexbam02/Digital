@@ -138,8 +138,7 @@ export const faqs = [
   },
   {
     id: 3,
-    title:
-      "What industries does SquareUp work with?",
+    title: "What industries does SquareUp work with?",
     text: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.",
   },
   {
@@ -147,4 +146,43 @@ export const faqs = [
     title: "How long does it take to complete a project with SquareUp?",
     text: "They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.",
   },
+];
+
+export const footer = [
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "Services",
+    link: "/",
+  },
+  {
+    id: 3,
+    title: "Work",
+    link: "/",
+  },
+  {
+    id: 4,
+    title: "Process",
+    link: "/",
+  },
+  {
+    id: 5,
+    title: "About",
+    link: "/",
+  },
+  {
+    id: 6,
+    title: "Carrer",
+    link: "/",
+  },
+  {
+    id: 7,
+    title: "Contact",
+    link: "/",
+  },
+  
 ];
