@@ -16,8 +16,35 @@ const CTA = () => {
         </p>
       </div>
 
-      <div className="btm w-full border-solid border-grayTwo border-[1px] p-[16px]">
-        ...Loading
+      <div className="btm px-[16px] w-full border-solid border-grayTwo border-[1px] p-[16px]">
+        <form className="flexCol gap-[2rem]">
+            <div className="bg-grayTwo py-[25px] border-grayThree border-[1.5px] border-solid px-[16px] rounded-[8px] w-full flex flex-col gap-3 items-start">
+                <p className="text-[20px]">Full Name</p>
+                <input type="text" placeholder="Type here" className="w-full border-solid border-b-[1.5px] border-grayThree bg-transparent outline-none"/>
+            </div>
+
+            <div className="bg-grayTwo py-[25px] border-grayThree border-[1.5px] border-solid px-[16px] rounded-[8px] w-full flex flex-col gap-3 items-start">
+                <p className="text-[20px]">Email</p>
+                <input type="email" placeholder="Type here" className="w-full border-solid border-b-[1.5px] border-grayThree bg-transparent outline-none"/>
+            </div>
+
+            <div className="bg-grayTwo py-[25px] border-grayThree border-[1.5px] border-solid px-[16px] rounded-[8px] w-full flex flex-col gap-3 items-start">
+                <p className="text-[20px]">Why are you contacting us?</p>
+                <input type="text" placeholder="Type here" className="w-full border-solid border-b-[1.5px] border-grayThree bg-transparent outline-none"/>
+            </div>
+
+            <div className="bg-grayTwo py-[25px] border-grayThree border-[1.5px] border-solid px-[16px] rounded-[8px] w-full flex flex-col gap-3 items-start">
+                <p className="text-[20px]">Your Budget</p>
+                <input type="text" placeholder="$100" className="w-full border-solid border-b-[1.5px] border-grayThree bg-transparent outline-none"/>
+            </div>
+
+            <div className="bg-grayTwo py-[25px] border-grayThree border-[1.5px] border-solid px-[16px] rounded-[8px] w-full flex flex-col gap-3 items-start">
+                <p className="text-[20px]">Your Message</p>
+                <input type="text" placeholder="$100" className="w-full border-solid border-b-[1.5px] border-grayThree bg-transparent outline-none"/>
+            </div>
+
+            <button className="py-[20px] w-full rounded-[8px] text-grayTwo text-[20px] bg-green">Submit</button>
+        </form>
       </div>
     </div>
   );
