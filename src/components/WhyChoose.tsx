@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import Image from "next/image";
 import { whyChoose } from "./UI/data";
 
@@ -27,13 +26,6 @@ const WhyChoose = () => {
               </div>
               <p className="text-left">{text}</p>
             </div>
-
-            {/* <Link
-              href={direct}
-              className="bg-grayTwo w-full rounded-[6px] p-[15px]"
-            >
-              Learn More
-            </Link> */}
           </div>
         ))}
       </div>
