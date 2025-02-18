@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image";
 import { faqs } from "./UI/data";
 import { useState } from "react";
@@ -25,7 +24,7 @@ const FAQs = () => {
         </p>
       </div>
       <div className="btm w-full border-solid border-grayTwo border-[1px] text-center flexCol gap-[0rem]">
-        {faqs.map(({ id, text }) => (
+        {faqs.map(({ id, text, title }) => (
           <div
             key={id}
             className="py-[35px] px-[16px] flexCol gap-4 w-full border-solid border-[1px] border-grayTwo"
@@ -35,8 +34,12 @@ const FAQs = () => {
                 <span className="custom-gradient flexCenter rounded-[6px] border-none border-solid border-[#2E2E2E] p-[16px]">
                   <h1 className="font-extrabold text-5xl">{id}</h1>
                 </span>
-                <h3 className="text-white text-[20px] text-left">
-                  What services does SquareUp provide?
+                <h3
+                  className={`text-[20px] text-left transition-colors duration-300 ease-in-out ${
+                    openFaqs[id] ? "text-greenTwo" : "text-white"
+                  }`}
+                >
+                  {title}
                 </h3>
                 <Image
                   onClick={() => handleMenu(id)}
@@ -44,12 +47,12 @@ const FAQs = () => {
                   width={35}
                   height={35}
                   alt=""
-                  className={`cursor-pointer transition-all duration-300 ease-in-out ${
+                  className={`cursor-pointer transition-all min-w-[35px] duration-300 ease-in-out ${
                     openFaqs[id] ? "transform rotate-180" : ""
                   } overflow-hidden`}
                 />
               </div>
-              <p className={`text-left collapsible ${openFaqs[id] ? open : ""}`}>
+              <p className={`text-left collapsible ${openFaqs[id] ? "collapsibleOpen" : ""}`}>
                 {text}
               </p>
             </div>

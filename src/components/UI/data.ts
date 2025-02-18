@@ -124,40 +124,27 @@ export const testionials = [
   },
 ];
 
-
 export const faqs = [
   {
     id: 1,
     title:
       "SquareUp has been Instrumental in Transforming our Online Presence. ",
-    profile: john,
-    text: "Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
-    name: "John Smith",
-    post: "CEO of Chic Boutique",
+    text: "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
   },
   {
     id: 2,
-    title: "Working with SquareUp was a breeze.",
-    profile: sarah,
+    title: "How can SquareUp help my business?",
     text: "They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.",
-    name: "Sarah Johnson",
-    post: "Founder of HungryBites.",
   },
   {
     id: 3,
     title:
-      "SquareUp developed a comprehensive booking and reservation system for our event management company",
-    profile: mark,
+      "What industries does SquareUp work with?",
     text: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.",
-    name: "Mark Thompson",
-    post: "Mark Thompson",
   },
   {
     id: 4,
-    title: "ProTech Solutions turned to SquareUp to automate our workflow",
-    profile: laura,
+    title: "How long does it take to complete a project with SquareUp?",
     text: "They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.",
-    name: "Laura Adams",
-    post: "COO of ProTech Solutions.",
-  }
+  },
 ];
