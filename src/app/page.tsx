@@ -4,6 +4,7 @@ import Companies from "@/components/Companies"
 import Services from "@/components/Services"
 import WhyChoose from "@/components/WhyChoose"
 import Testimonials from "@/components/Testimonials"
+import FAQs from "@/components/FAQs"
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
       <Services />
       <WhyChoose/>
       <Testimonials />
+      <FAQs />
     </>
   )
 }
