@@ -23,7 +23,7 @@ const WhyChoose = () => {
                 <span className="custom-gradient flexCenter rounded-[6px]  border-[#2E2E2E] p-[16px]">
                   <Image src={icon} width={25} height={25} alt="" />
                 </span>
-                <h3 className="ml-4 text-[30px] font-bold">{title}</h3>
+                <h3 className="ml-4 text-[25px] text-left font-bold">{title}</h3>
               </div>
               <p className="text-left">{text}</p>
             </div>
